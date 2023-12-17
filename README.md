@@ -1,4 +1,4 @@
-# typescript-node-project
+# Node.js project with TypeScript, Express.js, ESLint, Prettier, ts-node, nodemon and package.json environment specific scripts.
 
 Welcome to the TypeScript Node.js project! This repository provides a comprehensive guide on establishing a Node.js project with TypeScript, Express.js, ESLint, Prettier, ts-node, nodemon, and environment-specific package.json scripts for local, development, QA, and production.
 

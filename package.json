@@ -13,8 +13,33 @@
     "lint": "eslint src/**/*.ts --fix",
     "prettier": "prettier --write ."
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Node.js",
+    "TypeScript",
+    "Express.js",
+    "ESLint",
+    "Prettier",
+    "ts-node",
+    "Nodemon",
+    "Package.json",
+    "Environment-specific scripts",
+    "Web development",
+    "TypeScript project",
+    "Development tools",
+    "Code quality",
+    "Project essentials",
+    "typescript-eslint-setup",
+    "environment-specific-scripts",
+    "nodejs-typescript-project",
+    "typescript-development-tools",
+    "nodejs-typescript-code-quality",
+    "nodejs-typescript-project-essentials",
+    "nodejs-typescript-project-setup",
+    "nodejs-typescript-project-boilerplate",
+    "typescript-nodemon-setup",
+    "typescript-prettier-setup"
+  ],
+  "author": "Shubham Sharma(https://github.com/shubham-sharmas)",
   "license": "ISC",
   "devDependencies": {
     "@types/cors": "^2.8.17",
@@ -38,5 +63,9 @@
   "engines": {
     "npm": ">=9.5.1",
     "node": ">=18.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shubham-sharmas/typescript-node-project"
   }
 }
