@@ -1,7 +1,7 @@
 {
   "name": "typescript-node-setup",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.js project with TypeScript, Express.js, ESLint, Prettier, ts-node, nodemon and package.json environment specific scripts.",
   "main": "index.js",
   "scripts": {
     "local": "NODE_ENV=local nodemon",
@@ -34,5 +34,9 @@
     "express": "^4.18.2",
     "helmet": "^7.1.0",
     "prettier": "^3.1.1"
+  },
+  "engines": {
+    "npm": ">=9.5.1",
+    "node": ">=18.16.0"
   }
 }
