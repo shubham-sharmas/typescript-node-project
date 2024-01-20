@@ -1,8 +1,10 @@
-# Node.js project with TypeScript, Express.js, ESLint, Prettier, ts-node, nodemon and package.json environment specific scripts
+# Node.js project with TypeScript, Express.js, ESLint, Prettier, ts-node, nodemon, package.json, environment specific scripts, Logging and Logrotate automation
 
-## #[typescript-node-project](https://shubhamsharmas.hashnode.dev/a-guide-on-setting-up-a-nodejs-project-with-typescript-expressjs-eslint-prettier-ts-node-nodemon-and-packagejson-environment-specific-scripts "https://shubhamsharmas.hashnode.dev/a-guide-on-setting-up-a-nodejs-project-with-typescript-expressjs-eslint-prettier-ts-node-nodemon-and-packagejson-environment-specific-scripts")
+## #[typescript-node-project-with-logging](https://shubhamsharmas.hashnode.dev/setting-up-logging-in-your-nodejs-typescript-app-a-quick-start-guide-with-typescript-node-project-and-pino-logging-libraryintegrated-with-logrotate)
 
 Welcome to the TypeScript Node.js project! This repository provides complete guide on setting-up a Node.js project with TypeScript, Express.js, ESLint, Prettier, ts-node, nodemon, and environment-specific package.json scripts for local, development, QA, and production.
+
+> This branch feature/pino-logging contains additional pino logging and logrotate functionality on the top of existing [typescript-node-project](https://shubhamsharmas.hashnode.dev/a-guide-on-setting-up-a-nodejs-project-with-typescript-expressjs-eslint-prettier-ts-node-nodemon-and-packagejson-environment-specific-scripts)
 
 ## Technologies & Tools Used
 
@@ -34,6 +36,10 @@ Welcome to the TypeScript Node.js project! This repository provides complete gui
 
 14. **Linting and Formatting Scripts**: Provides environment-specific scripts in the `package.json` for linting and formatting code using ESLint and Prettier.
 
+15. **Pino Logger**: Efficient logging for Node.js applications with Pino.
+16. **Logrotate**: Automated log rotation for managing log files.
+17. **Logrotate CRON Automation**: Schedule Logrotate tasks for seamless log file rotation in your system.
+
 ## Project Setup
 
 Follow the steps below to set up the project on your local system:
@@ -62,5 +68,7 @@ Follow the steps below to set up the project on your local system:
 ```
 "prod": "NODE_ENV=production npm run build:start"
 ```
+
+## Check the link for pino logging, logrotate details and it's code walk-through: [typescript-node-project-with-logging](https://shubhamsharmas.hashnode.dev/setting-up-logging-in-your-nodejs-typescript-app-a-quick-start-guide-with-typescript-node-project-and-pino-logging-libraryintegrated-with-logrotate)
 
 ## Check the link for complete project details and code walk-through: [node.js-typescript-project-setup](https://shubhamsharmas.hashnode.dev/a-guide-on-setting-up-a-nodejs-project-with-typescript-expressjs-eslint-prettier-ts-node-nodemon-and-packagejson-environment-specific-scripts)
