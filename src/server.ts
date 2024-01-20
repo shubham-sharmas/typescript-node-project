@@ -1,6 +1,7 @@
 import express, { Application, Request, Response, NextFunction } from 'express';
 import helmet from 'helmet';
 import cors from 'cors';
+import pinoLogger from './utils/pino-logger';
 
 const app: Application = express();
 let unusedVar;
@@ -23,5 +24,6 @@ app.get('/health-check', (req: Request, res: Response) => {
 // Start the server
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
-  console.log(`Server is listening on port ${port}`);
+  pinoLogger.info(`PINO_LOGGER_PRINT: Server is listening on port ${port}`);
+  console.log(`CONSOLE_PRINT: Server is listening on port ${port}`);
 });
